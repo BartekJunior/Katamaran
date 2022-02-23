@@ -18,6 +18,12 @@ body {
   max-width: 100%;
 }
 
+.ahoy {
+  width: 200px;
+  height: 50px;
+}
+
+
 /* MEDIA SCREEN - responsive for mobile */
 @media screen and (max-width: 1199px) {
   .HT {
@@ -26,6 +32,11 @@ body {
 
   .A {
     font-size: 23px;
+  }
+
+  .ahoy {
+    width: 270px;
+    height: 75px;
   }
 }
 
@@ -94,13 +105,18 @@ hr {
   padding: 15px;
   margin: 0 20px 0;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
-.ahoy {
-  width: 200px;
+@media screen and (max-width: 990px) {
+.nav-link {
+  font-size: 2rem;
+  }
 }
 
+.navbar-toggler-icon {
+  padding: 50px;
+}
 
 
 /***** OMNIE *****/
