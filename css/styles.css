@@ -95,7 +95,6 @@ hr {
 
 /*** NAVBAR ***/
 .nav-link {
-  padding: 15px;
   margin: 0 20px 0;
   font-weight: 500;
   font-size: 1.3rem;
@@ -103,12 +102,12 @@ hr {
 
 @media screen and (max-width: 990px) {
   .nav-link {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
 
 .navbar-toggler-icon {
-  padding: 50px;
+  padding: 30px;
 }
 
 /***** OMNIE *****/
@@ -142,6 +141,7 @@ hr {
   color: #EAF6F6;
   font-weight: bold;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .butfaq:hover {
