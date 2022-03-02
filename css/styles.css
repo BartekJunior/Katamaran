@@ -3,9 +3,11 @@ html {
 }
 
 body {
-  background-color: #EAF6F6;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(120deg, rgba(2, 0, 36, 1) 0%, rgba(62, 217, 255, 1) 82%, rgba(0, 212, 255, 1) 100%);
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  color: #fff;
   text-align: center;
   line-height: 1.5;
 }
@@ -64,10 +66,9 @@ p {
 /* HR and Sections */
 hr {
   margin: 200px 150px 200px;
-  height: 2px;
   border: 0;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 #hro {
@@ -170,7 +171,6 @@ hr {
 
 /*** FOOTER ***/
 .ending {
-  background-color: #333;
   margin-top: 160px;
   height: auto;
   color: #f2f2f2;
@@ -212,9 +212,9 @@ hr {
 }
 
 .q {
-  color: green;
+  color: #FFB2A6;
 }
 
 .a {
-  color: #2D31FA;
+  color: #EFFFFD;
 }
