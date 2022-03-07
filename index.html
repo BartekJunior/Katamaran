@@ -20,6 +20,11 @@
     $(document).on('click', function() {
       $('.navbar .collapse').collapse('hide');
     })
+
+    function myFunction() {
+      var element = document.getElementById("navline");
+      element.classList.toggle("bg-dark");
+    }
   </script>
 
 
@@ -39,14 +44,17 @@
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"><img class="ahoy" src="img/ahoy.jpg" alt="ahoy"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <nav id="navline" class="navbar fixed-top navbar-expand-lg">
+    <button onclick="myFunction()" class="navbar-toggler navbar-light ms-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="the-blur"></div>
+
+
       <div class="navbar-nav ms-auto">
-        <a class="nav-link" href="#top">Home</a>
+
+        <a class="nav-link" href="#sea">Home</a>
         <a class="nav-link" href="#hro">O sterniku</a>
         <a class="nav-link" href="#hrp">Przystań</a>
         <a class="nav-link" href="#hra">Akwen</a>
@@ -55,8 +63,9 @@
       </div>
     </div>
   </nav>
-  <img class="sea" src="img/ones.jpg" alt="kat">
 
+
+  <img id="sea" src="img/ones.jpg" alt="kat">
 
 
 
@@ -97,8 +106,6 @@
 
     <!-- NASZA PRZYSTAN -->
 
-
-
     <div class="row" style="margin: auto">
 
       <div class="col col-xl-4 col-md-6 col-sm-6 col-12">
@@ -124,8 +131,8 @@
     <hr id="hra">
 
 
-    <!-- JEZIORO KIERSKIE -->
 
+    <!-- JEZIORO KIERSKIE -->
 
     <div class="row" style="margin: auto">
       <div class="col col-xl-4 col-md-6 col-sm-6 col-12">
@@ -159,7 +166,6 @@
 
 
     <!-- DOLACZ -->
-
 
     <div class="row" style="margin: auto">
       <div class="A col col-lg-6 col-md-6">

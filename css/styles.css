@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  background: rgb(2, 0, 36);
   background: linear-gradient(120deg, rgba(2, 0, 36, 1) 0%, rgba(62, 217, 255, 1) 82%, rgba(0, 212, 255, 1) 100%);
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -12,10 +11,9 @@ body {
   line-height: 1.5;
 }
 
-.sea {
+#sea {
   margin: 0;
   margin-bottom: 70px;
-  width: 1080px;
   height: auto;
   max-width: 100%;
 }
@@ -96,10 +94,30 @@ hr {
 }
 
 /*** NAVBAR ***/
+.the-blur {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 55px;
+  background: #084594;
+  z-index: -1;
+  -webkit-filter: blur(20px);
+  -moz-filter: blur(20px);
+  -o-filter: blur(20px);
+  -ms-filter: blur(20px);
+  filter: blur(25px);
+}
+
 .nav-link {
   margin: 0 20px 0;
   font-weight: 500;
   font-size: 1.3rem;
+  color: white;
+}
+
+
+.nav-link:hover {
+  color: black;
 }
 
 @media screen and (max-width: 990px) {
@@ -110,6 +128,14 @@ hr {
 
 .navbar-toggler-icon {
   padding: 30px;
+}
+
+/* Change background color after button click */
+.navbar-collapse.show .navbar-nav .nav-link,
+.navbar-collapse.collapsing .navbar-nav .nav-link {
+  background-color: #212529;
+  color: white;
+  margin: 0;
 }
 
 /***** OMNIE *****/
