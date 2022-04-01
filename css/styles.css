@@ -164,6 +164,7 @@ hr {
   color: black;
 }
 
+/* BUTTONS JOIN RESPONSIVE */
 @media screen and (min-width: 1200px) {
   .btn1 {
     display: none;
@@ -230,10 +231,10 @@ hr {
 }
 
 
-/* MAP */
+/*** MAP ***/
 
 .map-responsive {
-  padding-bottom: 70%;
+  padding-bottom: 80%;
   position: relative;
 }
 
@@ -243,4 +244,17 @@ hr {
   top: 0;
   height: 100%;
   width: 100%;
+}
+
+/* PARAGRAPH RESPONSIVE */
+@media screen and (min-width: 1200px) {
+  .info-small {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .info-big {
+    display: none;
+  }
 }
