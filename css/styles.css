@@ -228,3 +228,19 @@ hr {
 .a {
   color: #EFFFFD;
 }
+
+
+/* MAP */
+
+.map-responsive {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.map-responsive iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
