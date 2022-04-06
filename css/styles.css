@@ -12,21 +12,14 @@ body {
   line-height: 1.5;
 }
 
-#sea {
+#top-sea {
   margin: 0;
   margin-bottom: 70px;
   height: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 
-/* MEDIA SCREEN - font size responsive for mobile */
-@media screen and (max-width: 1199px) {
-  .info {
-    font-size: 22px;
-    height: 50px;
-  }
-}
 
 h1 {
   color: #66BFBF;
