@@ -137,8 +137,8 @@ hr {
   background-color: #66BFBF;
   margin: 10px auto 20px auto;
   padding: 10px;
-  display: inline-block;
-  width: 80%;
+  display: block;
+  width: 70%;
   text-align: center;
   border-radius: 10%;
 }
