@@ -126,7 +126,7 @@ hr {
 
 /* SECTION OFFER */
 #offer {
-  margin: 0 60px 0;
+  margin: 0 10px 0;
 }
 #offer .offer-div {
   background-color: #FFF6EA;
@@ -134,21 +134,21 @@ hr {
   height: auto;
   margin: 10px;
   text-align: left;
-  padding: 30px;
+  padding: 20px;
   border-style: solid;
   border-width: 5px;
   border-color: #66BFBF;
-  border-radius: 5%;
+  border-radius: 10%;
 }
 
-#offer h2 {
+#offer .offer-header {
   background-color: #66BFBF;
   margin: 10px auto 20px auto;
   padding: 10px;
-  display: block;
+  display: inline-block;
   width: 80%;
   text-align: center;
-  border-radius: 15%;
+  border-radius: 10%;
 }
 
 

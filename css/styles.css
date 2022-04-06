@@ -141,16 +141,15 @@ hr {
   border-radius: 5%;
 }
 
-#offer h2 {
+#offer .offer-header {
   background-color: orange;
   margin: 10px auto 20px auto;
   padding: 10px;
-  display: block;
+  display: inline-block;
   width: 80%;
   text-align: center;
-  border-radius: 15%;
+  border-radius: 10%;
 }
-
 
 
 
