@@ -4,19 +4,12 @@ html {
 
 body {
   background-color: #f8f8f8;
-  /* background: linear-gradient(120deg, rgba(2, 0, 36, 1) 0%, rgba(62, 217, 255, 1) 82%, rgba(0, 212, 255, 1) 100%); */
+  background: linear-gradient(120deg, rgba(2, 0, 36, 1) 0%, rgba(62, 217, 255, 1) 82%, rgba(0, 212, 255, 1) 100%);
   margin: 0;
   font-family: "Montserrat", sans-serif;
   color: black;
   text-align: center;
   line-height: 1.5;
-}
-
-#top-sea {
-  margin: 0;
-  margin-bottom: 70px;
-  height: auto;
-  width: 100%;
 }
 
 
@@ -115,6 +108,12 @@ hr {
 
 
 
+
+#top-sea {
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
 
 /* SECTION OFFER */
 #offer {
