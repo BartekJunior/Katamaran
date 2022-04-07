@@ -141,8 +141,15 @@ hr {
 }
 
 
-
-
+/* OFFER PACKAGE */
+#offer .offer-div .offer-price-sm {
+  margin: 0;
+  width: 130px;
+}
+#offer .offer-div .logo-package {
+  margin: 20px 0 0 20px;
+  height: 160px;
+}
 
 
 
