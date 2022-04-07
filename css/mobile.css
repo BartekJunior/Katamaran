@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #f8f8f8;
-  background: linear-gradient(120deg, rgba(2, 0, 36, 1) 0%, rgba(62, 217, 255, 1) 82%, rgba(0, 212, 255, 1) 100%);
+  /* background: linear-gradient(120deg, rgba(2, 0, 36, 1) 0%, rgba(62, 217, 255, 1) 82%, rgba(0, 212, 255, 1) 100%); */
   margin: 0;
   font-family: "Montserrat", sans-serif;
   color: black;
@@ -117,11 +117,11 @@ hr {
 #offer .offer-div {
   background-color: #FFF6EA;
   text-align: left;
-  min-height: 430px;
+  min-height: 470px;
   margin: 10px;
   padding: 20px;
   border-style: solid;
-  border-width: 5px;
+  border-width: 3px;
   border-color: #66BFBF;
   border-radius: 4%;
 }
@@ -135,8 +135,8 @@ hr {
   text-align: center;
 }
 
-#offer .offer-div .logo-rejs {
-  height: 180px;
+#offer .offer-div img {
+  height: 170px;
   float: right;
 }
 
