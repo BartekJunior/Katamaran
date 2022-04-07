@@ -12,7 +12,7 @@ body {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
@@ -96,32 +96,32 @@ hr {
   margin: 0;
 }
 
-*/
 
 /* #top-sea {
   margin: 0;
   height: auto;
   width: 100%;
 } */
+
+
+
 /* SECTION OFFER */
 #offer {
   margin: 0 10px 0;
 }
 
-#offer .offer-div {
+#offer .offer-container {
   background-color: white;
   text-align: left;
-  min-height: 470px;
+  min-height: 500px;
   margin: 10px;
   padding: 20px;
   border-style: solid;
   border-width: 3px;
-  border-color: #0E3EDA;
   border-radius: 4%;
 }
 
 #offer .offer-header {
-  background-color: #0E3EDA;
   color: #FFF6EA;
   margin: 10px auto 20px auto;
   padding: 10px;
@@ -131,29 +131,37 @@ hr {
   border-radius: 10%;
 }
 
-#offer .offer-div img {
+#offer .offer-container img {
   height: 190px;
 }
 
-#offer .offer-div .offer-price {
+#offer .offer-container .offer-price {
   display: inline-block;
   margin: 20px 60px 0 0;
 }
 
 
+
+
 /* OFFER PACKAGE */
-#offer .offer-div .offer-price-sm {
+#offer .offer-container .offer-price-sm {
   margin: 0;
-  width: 130px;
+  width: 120px;
 }
-#offer .offer-div .logo-package {
+#offer .offer-container .logo-package {
   margin: 20px 0 0 20px;
   height: 160px;
 }
+#offer .offer-container .offer-price-sm p {
+  margin-bottom: 5px;
+}
 
-
-
-
+/* OFFER VOUCHER */
+#offer .offer-container .logo-voucher {
+  display: block;
+  margin: 30px auto;
+  height: 150px;
+}
 
 
 
