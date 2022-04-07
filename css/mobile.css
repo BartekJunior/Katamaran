@@ -12,23 +12,18 @@ body {
   line-height: 1.5;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
 
 h1 {
   color: #66BFBF;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  font-size: 4rem;
-  margin-bottom: 150px;
+  font-size: 3rem;
+  margin-bottom: 100px;
 }
 
-h2 {
-  font-weight: 600;
-  margin: 10px 0 20px;
-}
-
-p {
-  text-align: justify;
-}
 
 /* BOOTSTRAP REPAIR */
 .col {
@@ -61,7 +56,7 @@ hr {
 
 
 /*** NAVBAR ***/
-.the-blur {
+/* .the-blur {
   position: fixed;
   top: 0;
   width: 100%;
@@ -103,17 +98,17 @@ hr {
   background-color: #212529;
   color: white;
   margin: 0;
-}
+} */
 
 
 
 
 
-#top-sea {
+/* #top-sea {
   margin: 0;
   height: auto;
   width: 100%;
-}
+} */
 
 /* SECTION OFFER */
 #offer {
@@ -121,15 +116,14 @@ hr {
 }
 #offer .offer-div {
   background-color: #FFF6EA;
-  min-height: 390px;
-  height: auto;
-  margin: 10px;
   text-align: left;
+  min-height: 430px;
+  margin: 10px;
   padding: 20px;
   border-style: solid;
   border-width: 5px;
   border-color: #66BFBF;
-  border-radius: 10%;
+  border-radius: 4%;
 }
 
 #offer .offer-header {
@@ -139,8 +133,19 @@ hr {
   display: block;
   width: 70%;
   text-align: center;
-  border-radius: 10%;
 }
+
+#offer .offer-div .logo-rejs {
+  height: 180px;
+  float: right;
+}
+
+#offer .offer-div .offer-price {
+  display: inline-block;
+}
+
+
+
 
 
 
