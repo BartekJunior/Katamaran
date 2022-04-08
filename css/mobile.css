@@ -4,10 +4,8 @@ html {
 
 body {
   background-color: #f8f8f8;
-  /* background: linear-gradient(120deg, rgba(2, 0, 36, 1) 0%, rgba(62, 217, 255, 1) 82%, rgba(0, 212, 255, 1) 100%); */
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  color: black;
   text-align: center;
   line-height: 1.5;
 }
@@ -17,11 +15,11 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  color: #66BFBF;
+  color: #525E75;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  font-size: 3rem;
-  margin-bottom: 100px;
+  font-size: 2.5rem;
+  margin: 20px 0 50px 0;
 }
 
 img {
@@ -50,6 +48,12 @@ hr {
 #hrp {
   margin-top: 250px;
 }
+
+/* KAT TOP IMAGE */
+#kat-top-img {
+  width: 100%;
+}
+
 
 /*** NAVBAR ***/
 /* .the-blur {
