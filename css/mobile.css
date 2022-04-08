@@ -9,6 +9,11 @@ body {
   line-height: 1.5;
 }
 
+/* KAT TOP IMAGE */
+#kat-top-img {
+  width: 100%;
+}
+
 h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -25,86 +30,6 @@ img {
   vertical-align: top;
 }
 
-/* BOOTSTRAP REPAIR */
-.col {
-  padding: 10px;
-}
-
-/* HR LINES */
-hr:not([size]) {
-  height: 2px;
-}
-
-hr {
-  margin: 200px 150px 200px;
-}
-
-#hro {
-  margin: 10px 60px 80px 60px;
-  visibility: hidden;
-}
-
-#hrp {
-  margin-top: 250px;
-}
-
-/* KAT TOP IMAGE */
-#kat-top-img {
-  width: 100%;
-}
-
-
-/*** NAVBAR ***/
-/* .the-blur {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  min-height: 55px;
-  background: #084594;
-  z-index: -1;
-  -webkit-filter: blur(20px);
-  -moz-filter: blur(20px);
-  -o-filter: blur(20px);
-  -ms-filter: blur(20px);
-  filter: blur(25px);
-}
-
-.nav-link {
-  margin: 0 20px 0;
-  font-weight: 500;
-  font-size: 1.3rem;
-  color: white;
-}
-
-
-.nav-link:hover {
-  color: black;
-}
-
-@media screen and (max-width: 990px) {
-  .nav-link {
-    font-size: 1.7rem;
-  }
-}
-
-.navbar-toggler-icon {
-  padding: 30px;
-}
-
-/* Change background color after button click */
-.navbar-collapse.show .navbar-nav .nav-link,
-.navbar-collapse.collapsing .navbar-nav .nav-link {
-  background-color: #212529;
-  color: white;
-  margin: 0;
-}
-
-
-/* #top-sea {
-  margin: 0;
-  height: auto;
-  width: 100%;
-} */
 
 
 
@@ -150,7 +75,7 @@ hr {
   width: 120px;
 }
 #offer .offer-container .logo-package {
-  margin: 20px 0 0 20px;
+  margin: 20px 0 0 10px;
   height: 160px;
 }
 #offer .offer-container .offer-price-sm p {
@@ -163,8 +88,6 @@ hr {
   margin: 30px auto;
   height: 150px;
 }
-
-
 
 
 
@@ -186,12 +109,6 @@ hr {
 
 
 
-/*** SECTION JOIN ***/
-.KATA {
-  width: auto;
-  height: auto;
-}
-
 .butfaq {
   display: block;
   width: 350px;
@@ -211,22 +128,7 @@ hr {
   color: black;
 }
 
-/* BUTTONS JOIN RESPONSIVE */
-@media screen and (min-width: 1200px) {
-  .btn1 {
-    display: none;
-  }
-}
 
-@media screen and (max-width: 1200px) {
-  .btn2 {
-    display: none;
-  }
-
-  .KATA {
-    margin-top: 30px;
-  }
-}
 
 /*** SECTION MAP ***/
 .map-responsive {
@@ -242,18 +144,6 @@ hr {
   width: 100%;
 }
 
-/* PARAGRAPH RESPONSIVE */
-@media screen and (min-width: 1200px) {
-  .info-small {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .info-big {
-    display: none;
-  }
-}
 
 /*** FOOTER ***/
 .ending {
