@@ -30,7 +30,9 @@ img {
   vertical-align: top;
 }
 
-
+.full-width-img {
+  width: 100%;
+}
 
 /* SECTION OFFER */
 #offer {
@@ -125,10 +127,6 @@ img {
   margin-bottom: 30px;
 }
 
-.our-club-img {
-  width: 100%;
-}
-
 
 
 
@@ -145,25 +143,39 @@ img {
   margin-bottom: 30px;
 }
 
-.okd-sea-race {
-  margin-bottom: 40px;
-  width: 100%;
+
+/* SECTION LAKE */
+#lake {
+  background-color: #F8F8F8;
+  margin: 0;
+  padding: 80px 30px 30px 30px;
+  text-align: left;
 }
 
+#lake h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+/* SECTION JOIN-ME */
+#join-me {
+  background-color: #F8F8F8;
+  margin: 0;
+  padding: 80px 30px 30px 30px;
+  text-align: left;
+}
 
-
-
-
-
-
+#join-me h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 .butfaq {
   display: block;
-  width: 350px;
+  width: 300px;
   margin: 60px auto;
   background: #4E9CAF;
-  padding: 18px;
+  padding: 10px;
   border-radius: 10px;
   color: #EAF6F6;
   font-weight: bold;
