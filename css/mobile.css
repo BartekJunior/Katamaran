@@ -232,7 +232,6 @@ img {
 /*** Q&A ***/
 .lake {
   max-width: 100%;
-  margin-bottom: 50px;
 }
 
 #arrow {
@@ -244,11 +243,10 @@ img {
   max-height: 9%;
 }
 
-@media screen and (max-width: 1200px) {
-  #arrow {
-    max-width: 20%;
-    max-height: 20%;
-  }
+#faq {
+  font-size: 50px;
+  padding: 40px;
+  text-align: left;
 }
 
 .q {
