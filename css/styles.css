@@ -250,17 +250,6 @@ hr {
   justify-content: center;
 }
 
-.pend {
-  font-size: 15px;
-  margin: 20px 20px;
-}
-
-@media screen and (max-width: 990px) {
-  .pend {
-    font-size: 22px;
-  }
-}
-
 /*** Q&A ***/
 .lake {
   max-width: 100%;
@@ -274,13 +263,6 @@ hr {
   display: inline;
   max-width: 9%;
   max-height: 9%;
-}
-
-@media screen and (max-width: 1200px) {
-  #arrow {
-    max-width: 20%;
-    max-height: 20%;
-  }
 }
 
 .q {
