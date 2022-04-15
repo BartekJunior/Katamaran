@@ -220,7 +220,6 @@ img {
   display: flex;
   justify-content: space-around;
   font-size: 12px;
-  height: auto;
   margin-top: 60px;
   padding: 10px;
 }
@@ -230,17 +229,13 @@ img {
 }
 
 /*** Q&A ***/
-.lake {
-  max-width: 100%;
-}
-
 #arrow {
   position: absolute;
   top: 0;
   left: 0;
   display: inline;
-  max-width: 9%;
-  max-height: 9%;
+  max-width: 12%;
+  max-height: 12%;
 }
 
 #faq {
