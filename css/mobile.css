@@ -5,6 +5,7 @@ html {
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  font-size: 17px;
   text-align: center;
   line-height: 1.5;
 }
@@ -15,6 +16,7 @@ body {
 }
 
 h2, h3, h4, h5, h6 {
+  font-weight: 600;
   margin: 0;
 }
 
@@ -216,6 +218,7 @@ img {
 
 /*** FOOTER ***/
 .ending {
+  background-color: #212529;
   color: #f2f2f2;
   display: flex;
   justify-content: space-around;
@@ -239,7 +242,6 @@ img {
 }
 
 #faq {
-  font-size: 30px;
   padding: 40px;
   text-align: left;
 }
