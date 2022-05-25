@@ -3,217 +3,214 @@ html {
 }
 
 body {
-  background-color: #f8f8f8;
-  background: linear-gradient(120deg, rgba(2, 0, 36, 1) 0%, rgba(62, 217, 255, 1) 82%, rgba(0, 212, 255, 1) 100%);
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  color: black;
+  font-size: 17px;
   text-align: center;
   line-height: 1.5;
 }
 
-#top-sea {
-  margin: 0;
-  margin-bottom: 70px;
-  height: auto;
-  width: 100%;
+/* KAT TOP IMAGE */
+#kat-top-img {
+  width: 85%;
 }
 
-
+h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin: 0;
+}
 
 h1 {
-  color: #66BFBF;
+  color: #525E75;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  font-size: 4rem;
-  margin-bottom: 150px;
+  font-size: 2.8rem;
+  margin: 50px 0 10px 0;
 }
 
-h2 {
-  font-weight: 600;
-  margin: 10px 0 20px;
+img {
+  vertical-align: top;
 }
 
-p {
-  text-align: justify;
-}
-
-/* BOOTSTRAP REPAIR */
-.col {
-  padding: 10px;
-}
-
-/* HR LINES */
-hr:not([size]) {
-  height: 2px;
-}
-
-hr {
-  margin: 200px 150px 200px;
-}
-
-#hro {
-  margin: 10px 60px 80px 60px;
-  visibility: hidden;
-}
-
-#hrp {
-  margin-top: 250px;
-}
-
-
-
-
-
-
-
-
-/*** NAVBAR ***/
-.the-blur {
-  position: fixed;
-  top: 0;
+.full-width-img {
   width: 100%;
-  min-height: 55px;
-  background: #084594;
-  z-index: -1;
-  -webkit-filter: blur(20px);
-  -moz-filter: blur(20px);
-  -o-filter: blur(20px);
-  -ms-filter: blur(20px);
-  filter: blur(25px);
 }
-
-.nav-link {
-  margin: 0 20px 0;
-  font-weight: 500;
-  font-size: 1.3rem;
-  color: white;
-}
-
-
-.nav-link:hover {
-  color: black;
-}
-
-@media screen and (max-width: 990px) {
-  .nav-link {
-    font-size: 1.7rem;
-  }
-}
-
-.navbar-toggler-icon {
-  padding: 30px;
-}
-
-/* Change background color after button click */
-.navbar-collapse.show .navbar-nav .nav-link,
-.navbar-collapse.collapsing .navbar-nav .nav-link {
-  background-color: #212529;
-  color: white;
-  margin: 0;
-}
-
-
-
-
 
 /* SECTION OFFER */
-#offer {
-  margin: 0 60px 0;
+.offer-alpha {
+  font-size: 1.3rem;
+  margin: 0 10px 50px 10px;
+  padding: 15px;
 }
-#offer .offer-div {
-  background-color: #FFF6EA;
-  min-height: 390px;
-  height: auto;
-  margin: 10px;
+
+#offer {
+  margin: 0 10px 90px;
+}
+
+#offer .offer-container {
+  background-color: #f8f8f8;
   text-align: left;
-  padding: 30px;
+  min-height: 550px;
+  margin: 10px;
+  padding: 20px;
   border-style: solid;
-  border-width: 5px;
-  border-color: orange;
-  border-radius: 5%;
+  border-width: 3px;
+  border-radius: 4%;
 }
 
 #offer .offer-header {
-  background-color: orange;
+  color: #FFF6EA;
   margin: 10px auto 20px auto;
   padding: 10px;
-  display: inline-block;
-  width: 80%;
+  display: block;
+  width: 70%;
   text-align: center;
-  border-radius: 10%;
+  border-radius: 8px;
 }
 
-
-
-
-
-/* SECTION ABOUT */
-#about img {
-  border-radius: 5%;
-  max-width: 100%;
-  max-height: 100%;
-}
-#about {
-  margin: 0 50px;
+#offer .offer-container img {
+  height: 190px;
 }
 
-.cv {
-  height: 300px;
-  border-radius: 50%;
-  margin: 30px 30px 0 0;
+#offer .offer-container .offer-price {
+  display: inline-block;
+  margin: 20px 60px 0 0;
 }
 
-.omnie-left {
-  text-align: right;
+#offer .offer-container .button-sign-in {
+  background-color: #212529;
+  border-radius: 8px;
+  color: #F8F8F8;
+  cursor: pointer;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 40px auto 20px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
 }
 
-.omnie-right {
+#offer .offer-container .button-sign-in:hover {
+  background-color: #198754;
+}
+
+/* OFFER PACKAGE */
+#offer .offer-container .offer-price-sm {
+  margin: 0 auto;
+  width: 120px;
+}
+
+#offer .offer-container .logo-package {
+  margin-left: 20px;
+  height: 160px;
+}
+
+#offer .offer-container .offer-price-sm p {
+  margin-bottom: 5px;
+}
+
+/* OFFER VOUCHER */
+#offer .offer-container .logo-voucher {
+  display: block;
+  margin: 30px auto;
+  height: 150px;
+}
+
+/*SECTION OUR CLUB */
+#our-club {
+  background-color: #FFFBE7;
+  padding: 30px;
   text-align: left;
 }
 
-/*** SECTION JOIN ***/
-.KATA {
-  width: auto;
-  height: auto;
+#our-club h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+/* SECTION ABOUT ME */
+#about-me {
+  background-color: #F8F8F8;
+  margin: 0;
+  padding: 80px 30px 30px 30px;
+  text-align: left;
+}
+
+#about-me h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* SECTION LAKE */
+#lake {
+  background-color: #F8F8F8;
+  margin: 0;
+  padding: 80px 30px 30px 30px;
+  text-align: left;
+}
+
+#lake h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* SECTION JOIN-ME */
+#join-me {
+  background-color: #F8F8F8;
+  margin: 0;
+  padding: 80px 30px 30px 30px;
+  text-align: left;
+}
+
+#join-me h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#join-me .button-join-me {
+  border-radius: 8px;
+  color: #F8F8F8;
+  cursor: pointer;
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 40px auto 30px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 220px;
 }
 
 .butfaq {
   display: block;
-  width: 350px;
+  width: 300px;
   margin: 60px auto;
-  background: #4E9CAF;
-  padding: 18px;
+  padding: 10px;
   border-radius: 10px;
   color: #EAF6F6;
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 18px;
   text-decoration: none;
-}
-
-.butfaq:hover {
-  background: #FF6363;
-  text-decoration: none;
-  color: black;
-}
-
-/* BUTTONS JOIN RESPONSIVE */
-@media screen and (min-width: 1200px) {
-  .btn1 {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .btn2 {
-    display: none;
-  }
-  .KATA {
-    margin-top: 30px;
-  }
 }
 
 /*** SECTION MAP ***/
+#maps {
+  background-color: #F8F8F8;
+  margin: 0;
+  padding: 80px 30px 30px 30px;
+  text-align: left;
+}
+
+#maps h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* MAP INDEED */
 .map-responsive {
   padding-bottom: 80%;
   position: relative;
@@ -227,42 +224,34 @@ hr {
   width: 100%;
 }
 
-/* PARAGRAPH RESPONSIVE */
-@media screen and (min-width: 1200px) {
-  .info-small {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .info-big {
-    display: none;
-  }
-}
-
-
 /*** FOOTER ***/
 .ending {
-  margin-top: 160px;
-  height: auto;
+  background-color: #212529;
   color: #f2f2f2;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  font-size: 12px;
+  margin-top: 60px;
+  padding: 10px;
+}
+
+.ending p {
+  margin: 0;
 }
 
 /*** Q&A ***/
-.lake {
-  max-width: 100%;
-  margin-bottom: 50px;
-}
-
 #arrow {
   position: absolute;
   top: 0;
   left: 0;
   display: inline;
-  max-width: 9%;
-  max-height: 9%;
+  max-width: 12%;
+  max-height: 12%;
+}
+
+#faq {
+  padding: 40px 40px 40px 30px;
+  text-align: left;
 }
 
 .q {
