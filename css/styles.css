@@ -51,11 +51,13 @@ img {
   background-color: #f8f8f8;
   text-align: left;
   min-height: 550px;
+  height: 600px;
   margin: 10px;
   padding: 20px;
   border-style: solid;
   border-width: 3px;
   border-radius: 4%;
+  position: relative;
 }
 
 #offer .offer-header {
@@ -63,18 +65,25 @@ img {
   margin: 10px auto 20px auto;
   padding: 10px;
   display: block;
-  width: 70%;
+  width: 90%;
   text-align: center;
   border-radius: 8px;
+}
+
+#offer .offer-container .offer-price {
+  display: inline-block;
+  margin: 20px 60px 0 0;
 }
 
 #offer .offer-container img {
   height: 190px;
 }
 
-#offer .offer-container .offer-price {
-  display: inline-block;
-  margin: 20px 60px 0 0;
+#offer .offer-container .bottom-div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 #offer .offer-container .button-sign-in {
@@ -85,7 +94,7 @@ img {
   display: block;
   font-weight: 500;
   font-size: 16px;
-  margin: 40px auto 20px;
+  margin: 0 auto 60px;
   padding: 10px 30px;
   text-align: center;
   text-decoration: none;
