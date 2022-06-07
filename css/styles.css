@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 120px;
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   text-align: center;
@@ -129,7 +129,7 @@ img {
 
 /*SECTION OUR CLUB */
 #our-club {
-  background-color: #FFFBE7;
+  background-color: #F8F8F8;
   padding: 30px;
   text-align: left;
 }
