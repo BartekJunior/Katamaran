@@ -111,21 +111,21 @@ img {
   width: 40%;
 }
 
-#offer .offer-container .logo-package {
-  display: block;
-  margin: 0 auto;
-  height: 160px;
-}
-
-.logo-package-div {
-  display: inline-block;
-  vertical-align: top;
-  width: 55%;
-}
-
 #offer .offer-container .offer-price-sm p {
   margin: 0 0 10px 0;
   font-size: 15px;
+}
+
+#offer .offer-container .logo-package-div {
+  display: inline-block;
+  vertical-align: top;
+  width: 58%;
+}
+
+#offer .offer-container .logo-package-div .logo-package {
+  display: block;
+  margin: 0 auto;
+  height: 160px;
 }
 
 /* OFFER VOUCHER */
